@@ -39,13 +39,15 @@
 # pip install python-dotenv
 #
 
-echo "# asistente-de-reclutamiento" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/alarconjr/asistente-de-reclutamiento.git
-git push -u origin main
+#
+# echo "# asistente-de-reclutamiento" >> README.md
+# git init
+# git add -A
+# git add readme.md --Optional
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/alarconjr/asistente-de-reclutamiento.git
+# git push -u origin main
 
 
 from openai import OpenAI
